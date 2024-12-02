@@ -32,68 +32,7 @@ p {
 /* ==========comon css ends here========= */
 
 /* =========navber css start here========= */
-#navber {
-  background-color: #fff;
-  padding: 15px 0;
-  position: fixed;
-  top: 36px;
-  left: 0;
-  width: 100%;
-}
-.nav_wrapper {
-  display: flex;
-  align-items: center;
-}
-.nav_logo {
-  width: 20%;
-}
-.nav_menu .nav_menu_item {
-  display: flex;
-  column-gap: 46px;
-}
-.nav_menu .nav_menu_item li a {
-  color: var(--primeryColor);
-  font-family: var(--primeryFont);
-  font-size: 15px;
-  font-weight: 500;
-  line-height: normal;
-  position: relative;
-  transition: all linear 0.4s;
-}
-.nav_menu .nav_menu_item li a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 5px;
-  background-color: rgb(96, 4, 4);
-  right: 0;
-  bottom: -5px;
-  transition: all linear 0.4s;
-}
-.nav_menu .nav_menu_item li a:hover::after {
-  width: 100%;
-}
-.nav_icon {
-  width: 20%;
-  display: flex;
-  justify-content: end;
-  column-gap: 8px;
-  cursor: pointer;
-}
-/* */
-.nav_icon .nav_icon_svg {
-  width: 23px;
-  height: 23px;
-  border: 1px solid #036e8a;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav_icon_svg i {
-  font-size: 8px;
-  color: #036e8a;
-}
+
 
 /* ==========navber css ends here========= */
 /* =========bnner css start here========= */
