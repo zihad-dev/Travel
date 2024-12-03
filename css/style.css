@@ -194,3 +194,62 @@ p {
   justify-content: center;
 }
 /* ==========bnner css ends here========= */
+
+/* =========only css start here========= */
+#only {
+  background-color: #036e8a;
+  margin-bottom: 110px;
+}
+.only_wrapper {
+  background: url(../images/onlyBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.only_main_content {
+  display: flex;
+  gap: 74px;
+  align-items: center;
+  padding: 69px 0;
+}
+.only_img {
+  width: 508px;
+  height: 523px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.only_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.only_content h4 {
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.only_content h2 {
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 567px;
+  margin-bottom: 30px;
+}
+.only_content p {
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 530px;
+}
+/* ==========only css ends here========= */
