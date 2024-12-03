@@ -813,7 +813,8 @@ p {
   font-size: 32px;
   color: #036e8a;
   position: absolute;
-  padding: 27px 63px 29px 58px;
+  padding: 30px 63px 29px 35px;
+  
 }
 .news_item button {
   color: #fff;
@@ -822,7 +823,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding: 22px 39px 23px 44px;
+  padding: 22px 30px 23px 30px;
   background-color: #ff8000;
   border: none;
   border-radius: 20px;
@@ -854,7 +855,7 @@ p {
 }
 .nesws_content_bottom{
   display: flex;
-  column-gap: 68px;
+  column-gap: 30px;
 }
 .news_logo_two {
   width: 120.004px;
