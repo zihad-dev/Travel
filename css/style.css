@@ -872,4 +872,129 @@ p {
 }
 
 /* ==========news css ends here========= */
+/* =========words css start here========= */
+#words {
+  margin-top: 120px;
+  margin-bottom: 155px;
+}
+.words_header h2 {
+  color: #036e8a;
+  font-family: var(--primeryFont);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.words_header p {
+  color: #000;
+  font-family: var(--primeryFont);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  max-width: 830px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.words_box {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 72px;
+  row-gap: 75px;
+}
+/* =============one========= */
+.words_box_one {
+  width: 538px;
+  height: 399px;
+  background-color: #fff;
+  border-radius: 18px;
+  -webkit-box-shadow: 2px 6px 22px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 22px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 6px 22px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.4s;
+}
+.words_box_one:hover:nth-child(odd) {
+  background-color: #036e8a;
+}
+.words_box_one:hover:nth-child(odd) h3 {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(odd) h4 {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(odd) svg {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(odd) p {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(even) {
+  background-color: #ff8000;
+}
+.words_box_one:hover:nth-child(even) h3 {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(even) h4 {
+  color: #fff;
+}
+.words_box_one:hover:nth-child(even) i{
+  color: #fff;
+}
+.words_box_one:hover:nth-child(even) p {
+  color: #fff;
+}
 
+.word_box_img {
+  width: 113px;
+  height: 113px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  overflow: hidden;
+}
+.wordBoxImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.words_box_one h3 {
+  color: #036e8a;
+  font-family: var(--primeryFont);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  transition: all linear.5s;
+}
+.words_box_one h4 {
+  color: #262525;
+  font-family: var(--primeryFont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+  transition: all linear.5s;
+}
+.word_box_svg i {
+  color: #ff8000;
+  margin-bottom: 20px;
+  transition: all linear.5s;
+}
+.words_box_one p {
+  color: #000;
+  font-family: var(--primeryFont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 430px;
+  text-align: center;
+  margin: 0 auto;
+  transition: all linear.5s;
+}
+/* ==========words css ends here========= */
