@@ -998,3 +998,67 @@ p {
   transition: all linear.5s;
 }
 /* ==========words css ends here========= */
+/* =========help css start here========= */
+#help {
+  margin-bottom: 120px;
+}
+.help_wrapper {
+  background-color: #036e8a;
+  padding: 37px 50px;
+}
+.help_bg {
+  background: url(../images/helpbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.help_content {
+  text-align: center;
+}
+.help_content h2 {
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.help_border_one {
+  width: 778px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.help_content p {
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-top: 74px;
+  padding-bottom: 60px;
+}
+.help_border_two {
+  width: 411px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.help_content a {
+  display: inline-block;
+  color: #fff;
+  font-family: var(--primeryFont);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 21px 66px;
+  border-radius: 40px;
+  background-color: #ff8000;
+  margin-top: 44px;
+}
+/* ==========help css ends here========= */
